@@ -13,8 +13,18 @@ public class Android implements IDevice{
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("deviceName","testerQA");
         capabilities.setCapability("platformVersion","9.0");
-        capabilities.setCapability("appPackage","com.android.calculator2");
-        capabilities.setCapability("appActivity","com.android.calculator2.Calculator");
+        //capabilities.setCapability("appPackage","com.android.calculator2");
+        //capabilities.setCapability("appActivity","com.android.calculator2.Calculator");
+
+        //capabilities.setCapability("appPackage","com.google.android.dialer");
+        //capabilities.setCapability("appActivity","com.google.android.dialer.extensions.GoogleDialtactsActivity");
+
+        capabilities.setCapability("appPackage","com.android.contacts");
+        capabilities.setCapability("appActivity","com.android.contacts.activities.PeopleActivity");
+
+        //capabilities.setCapability("appPackage","com.vrproductiveapps.whendo");
+        //capabilities.setCapability("appActivity","com.vrproductiveapps.whendo.ui.HomeActivity");
+
         capabilities.setCapability("platformName","Android");
         capabilities.setCapability("automationName","uiautomator2");
 
