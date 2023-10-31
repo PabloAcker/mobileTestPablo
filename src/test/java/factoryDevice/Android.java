@@ -19,11 +19,19 @@ public class Android implements IDevice{
         //capabilities.setCapability("appPackage","com.google.android.dialer");
         //capabilities.setCapability("appActivity","com.google.android.dialer.extensions.GoogleDialtactsActivity");
 
-        capabilities.setCapability("appPackage","com.android.contacts");
-        capabilities.setCapability("appActivity","com.android.contacts.activities.PeopleActivity");
+        //capabilities.setCapability("appPackage","com.android.contacts");
+        //capabilities.setCapability("appActivity","com.android.contacts.activities.PeopleActivity");
 
         //capabilities.setCapability("appPackage","com.vrproductiveapps.whendo");
         //capabilities.setCapability("appActivity","com.vrproductiveapps.whendo.ui.HomeActivity");
+
+        //Clock:
+        //capabilities.setCapability("appPackage","com.google.android.deskclock");
+        //capabilities.setCapability("appActivity","com.android.deskclock.DeskClock");
+
+        //Messages:
+        capabilities.setCapability("appPackage","com.google.android.apps.messaging");
+        capabilities.setCapability("appActivity","com.google.android.apps.messaging.ui.ConversationListActivity");
 
         capabilities.setCapability("platformName","Android");
         capabilities.setCapability("automationName","uiautomator2");
