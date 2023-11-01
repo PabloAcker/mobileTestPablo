@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48fa21ba-a664-4716-89a0-2779f50bd242" name="Changes" comment="Commit with create contact phone">
-      <change afterPath="$PROJECT_DIR$/src/test/java/activities/clock/AddZoneScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/activities/clock/AlarmClockDetailScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/activities/clock/AlarmScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/activities/clock/ClockSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/activities/clock/MainScreenClock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/activities/messages/MainScreenMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/activities/messages/MessageContactScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/activities/messages/NewConversationScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/activities/messages/PreviousScreens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testSuite/ClockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testSuite/MessagesTest.java" afterDir="false" />
+    <list default="true" id="48fa21ba-a664-4716-89a0-2779f50bd242" name="Changes" comment="Commit with test message apk and clock apk">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/factoryDevice/Android.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factoryDevice/Android.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,15 +39,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Pablo/IdeaProjects/UPB2023UnitTesting"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Gradle.MessagesTest.verifySendMessage">
     <configuration name="ClockTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -216,13 +205,22 @@
       <option name="project" value="LOCAL" />
       <updated>1698708275530</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit with test message apk and clock apk">
+      <option name="closed" value="true" />
+      <created>1698783459695</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698783459695</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Commit with create event calendar" />
     <MESSAGE value="Commit with create contact phone" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit with create contact phone" />
+    <MESSAGE value="Commit with test message apk and clock apk" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit with test message apk and clock apk" />
   </component>
 </project>

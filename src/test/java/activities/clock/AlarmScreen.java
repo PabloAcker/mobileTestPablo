@@ -2,7 +2,6 @@ package activities.clock;
 
 import control.Button;
 import control.Label;
-import control.TextBox;
 import org.openqa.selenium.By;
 
 public class AlarmScreen {

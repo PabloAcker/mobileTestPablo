@@ -13,6 +13,7 @@ public class Android implements IDevice{
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("deviceName","testerQA");
         capabilities.setCapability("platformVersion","9.0");
+
         //capabilities.setCapability("appPackage","com.android.calculator2");
         //capabilities.setCapability("appActivity","com.android.calculator2.Calculator");
 
@@ -30,8 +31,12 @@ public class Android implements IDevice{
         //capabilities.setCapability("appActivity","com.android.deskclock.DeskClock");
 
         //Messages:
-        capabilities.setCapability("appPackage","com.google.android.apps.messaging");
-        capabilities.setCapability("appActivity","com.google.android.apps.messaging.ui.ConversationListActivity");
+        //capabilities.setCapability("appPackage","com.google.android.apps.messaging");
+        //capabilities.setCapability("appActivity","com.google.android.apps.messaging.ui.ConversationListActivity");
+
+        //Documents:
+        capabilities.setCapability("appPackage","com.android.documentsui");
+        capabilities.setCapability("appActivity","com.android.documentsui.files.FilesActivity");
 
         capabilities.setCapability("platformName","Android");
         capabilities.setCapability("automationName","uiautomator2");
